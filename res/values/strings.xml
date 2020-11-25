@@ -12190,6 +12190,8 @@
 
     <!-- Summary for preference when Bedtime mode is on [CHAR LIMIT=NONE] -->
     <string name="aware_summary_when_bedtime_on">Unavailable because bedtime mode is on</string>
+    <string name="connectivity_check_title">Internet connectivity check</string>
+    <string name="connectivity_check_summary">HTTP endpoints to use for performing internet connectivity checks.</string>
     <string name="keyguard_camera_title">Screen lock camera access</string>
     <string name="keyguard_camera_summary">Allow camera access when the device is locked</string>
 </resources>
