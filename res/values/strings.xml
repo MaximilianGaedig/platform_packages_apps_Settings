@@ -3065,11 +3065,13 @@
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
     <string name="baseband_version">Baseband version</string>
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
+    <string name="bootloader_version">Bootloader version</string>
+    <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
     <string name="kernel_version">Kernel version</string>
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
     <string name="build_number">Build number</string>
     <!-- About phone screen, tapping this button will take user to a seperate UI to check Google Play system update [CHAR LIMIT=60] -->
-    <string name="module_version">Google Play system update</string>
+    <string name="module_version">Mainline system update</string>
 
     <!-- About phone screen, show when a value of some status item is unavailable. -->
     <string name="device_info_not_available">Not available</string>
@@ -4037,7 +4039,7 @@
     <string name="license_title">License</string>
     <!-- Note: this may be replaced by a more-specific title of the activity that will get launched --> <skip />
     <!-- About phone settings screen, setting option name to see licensing info for Google Play system updates [CHAR LIMIT=50] -->
-    <string name="module_license_title">Google Play system update licenses</string>
+    <string name="module_license_title">Mainline system update licenses</string>
     <!-- Note: this may be replaced by a more-specific title of the activity that will get launched --> <skip />
     <!-- About phone settings screen, setting option name to see terms and conditions -->
     <string name="terms_title">Terms and conditions</string>
@@ -12203,4 +12205,9 @@
     <string name="bluetooth_phonebook_access_dialog_title">Allow access to contacts and call log?</string>
     <!-- Bluetooth phonebook permission alert for dialog content [CHAR LIMIT=none] -->
     <string name="bluetooth_phonebook_access_dialog_content">An untrusted Bluetooth device, <xliff:g id="device_name" example="My device">%1$s</xliff:g>, wants to access your contacts and call log. This includes data about incoming and outgoing calls.\n\nYou haven\u2019t connected to <xliff:g id="device_name" example="My device">%2$s</xliff:g> before.</string>
+
+    <string name="connectivity_check_title">Internet connectivity check</string>
+    <string name="connectivity_check_summary">HTTP endpoints to use for performing internet connectivity checks.</string>
+    <string name="keyguard_camera_title">Screen lock camera access</string>
+    <string name="keyguard_camera_summary">Allow camera access when the device is locked</string>
 </resources>
