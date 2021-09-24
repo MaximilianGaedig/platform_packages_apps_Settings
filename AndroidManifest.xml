@@ -108,7 +108,7 @@
     <uses-permission android:name="android.permission.READ_DREAM_SUPPRESSION" />
 
     <application android:label="@string/settings_label"
-            android:icon="@drawable/ic_launcher_settings"
+            android:icon="@mipmap/ic_launcher"
             android:theme="@style/Theme.Settings"
             android:hardwareAccelerated="true"
             android:requiredForAllUsers="true"
@@ -1786,6 +1786,10 @@
             android:label="@string/lockpassword_choose_lock_generic_header"
             android:excludeFromRecents="true" />
 
+        <activity android:name=".password.ChooseLockPatternSize"
+            android:exported="false"
+            android:theme="@style/GlifTheme.Light" />
+
         <activity android:name=".password.SetupChooseLockPattern"
             android:exported="false"
             android:theme="@style/GlifTheme.Light" />
@@ -3420,6 +3424,18 @@
                 <action android:name="com.android.settings.action.LAUNCH_BLUETOOTH_PAIRING"/>
             </intent-filter>/>
         </receiver>
+
+        <activity android:name=".backup.transport.TransportActivity"
+                  android:label="@string/backup_transport_title"
+                  android:icon="@drawable/ic_settings_backup"
+                  android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="settings"
+                      android:host="com.android.settings.backup.transport" />
+            </intent-filter>
+        </activity>
 
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
